@@ -1,0 +1,72 @@
+PROJECT NAME,text,image,audiovisual,3D,metadata,ontology,PROCESS,PURPOSES,TOOLS,AUDIENCE,TARGET,EVALUATION,PUBLISHED,REFERENCE
+"Thematic Pathways on the Web (Vatican DL)
+https://spotlight.vatlib.it/it ",FALSE,TRUE,FALSE,FALSE,Web Annotation Data Model,,manual,"commenting, tagging, transcribing/translating",Mirador,public,domain expert,FALSE,published,"https://doi.org/10.4403/jlis.it-12770 
+https://doi.org/10.36181/digitalia-00017"
+From Data to Wisdom,FALSE,TRUE,FALSE,FALSE,Custom Taxonomy ,,manual,tagging,Custom,public,"domain expert, curation manager, special-purpose user, casual user",TRUE,published without prototype,https://doi.org/10.6092/issn.2532-8816/17230
+"MMMonk Liber Floridus
+https://www.mmmonk.be/en/about-iiif/iiif-demo-liber-floridus ",FALSE,TRUE,FALSE,FALSE,Web Annotation Data Model,,manual,"commenting, associating, transcribing/translating, tagging",Mirador,public,"domain expert, curation manager",TRUE,prototype,
+"Late Hokusai (RSpace)
+https://latehokusai.researchspace.org/resource/rsp:Start",FALSE,TRUE,FALSE,FALSE,Web Annotation Data Model,CIDOC-CRM ,manual,"tagging, commenting,  transcribing/translating, associating",Mirador,"private, public, collaborative","domain expert, curation manager, special-purpose user, casual user",TRUE,published,"https://doi.org/10.11588/dah.2019.4.72071 
+https://doi.org/10.1007/978-3-030-00668-6_20"
+"The Life of the Buddha
+http://lotb.iath.virginia.edu/mirador_viewer/mirador?manifest=1&room_id=1",FALSE,TRUE,FALSE,FALSE,Web Annotation Data Model,,manual,"commenting, transcribing/translating, associating",Mirador,public,"domain expert, special-purpose user, curation manager",TRUE,published,https://doi.org/10.1515/9783110573022-006
+"Ten Thousand Rooms Project
+https://tenthousandrooms.yale.edu/ ",FALSE,TRUE,FALSE,FALSE,Web Annotation Data Model,,manual,"transcribing/translating, commenting, associating",Mirador,"collaborative, private, public","casual user, special-purpose user, domain expert",FALSE,published,https://doi.org/10.1017/jch.2020.25 
+"Digital Dickens Notes Project
+https://www.dickensnotes.com/ ",FALSE,TRUE,FALSE,FALSE,Web Annotation Data Model,,manual,commenting,Annonatate,public,domain expert,FALSE,published,https://doi.org/10.5325/victinstj.49.2022.0210 
+"e-codices
+https://www.e-codices.ch/it/annotations ",FALSE,TRUE,FALSE,FALSE,,,manual,commenting,Custom,public,casual user,FALSE,published,https://doi.org/10.1353/dph.2017.0013 
+"Parker Library on the Web
+https://exhibits.stanford.edu/parker ",FALSE,TRUE,FALSE,FALSE,Web Annotation Data Model,,manual,commenting,Mirador,public,"domain expert, curation manager",FALSE,published,https://doi.org/10.4324/9781003003441-5
+"Digital Library of Medieval Manuscripts 
+https://dlmm.library.jhu.edu/ ",FALSE,TRUE,FALSE,FALSE,Web Annotation Data Model,,manual,"commenting, transcribing/translating",Mirador,public,domain expert,FALSE,published,"https://doi.org/10.1353/dph.2012.0003
+https://doi.org/10.1353/dph.2017.0000"
+"Amara West (RSpace for British Museum)
+https://amara-west.researchspace.org/resource/rsp:Start",FALSE,TRUE,FALSE,TRUE,Web Annotation Data Model,CIDOC-CRM ,manual,"associating, commenting, tagging","Mirador, Custom","public, collaborative","domain expert, curation manager, special-purpose user, casual user",FALSE,published,https://www.repository.cam.ac.uk/items/03ac12f1-7cf4-4f33-91de-29bf86f43cd0 
+"BNF Mandragore
+https://mandragore.bnf.fr/ ",FALSE,TRUE,FALSE,FALSE,Web Annotation Data Model,,semi-automatic,tagging,Mirador,public,domain expert,FALSE,published,https://doi.org/10.58079/r889 
+"Les décors Karbowsky
+https://karbowsky.inha.fr/ ",FALSE,TRUE,FALSE,FALSE,,,manual,"commenting, tagging",Custom,public,domain expert,FALSE,published,https://doi.org/10.58079/sgvi
+"PIA project
+(Participatory Knowledge Practices in Analogue 
+and Digital Image Archives)
+https://about.participatory-archives.ch/",FALSE,TRUE,FALSE,FALSE,Web Annotation Data Model,,"manual, automatic",tagging,"Annonatate, Custom",public,casual user,TRUE,prototype,"https://doi.org/10.1145/3625301 (2023)
+https://doi.org/10.5451/unibas-ep89725 (2022)"
+"RASTA project
+(Realtà Aumentata e Story-Telling 
+Automatizzato per la 
+valorizzazione di Beni Culturali ed Itinerari)
+https://rasta.unicampania.it/ ",FALSE,TRUE,FALSE,FALSE,Web Annotation Data Model,REA Ontology,manual,tagging,Mirador,public,domain expert,FALSE,published without prototype,https://doi.org/10.1007/978-3-031-57942-4_6 
+"TROMPA project
+https://trompamusic.eu/music-scholars-annotator/#/ ",TRUE,FALSE,TRUE,FALSE,Web Annotation Data Model,,manual,"commenting, associating",Custom,"collaborative, public","domain expert, casual user, special-purpose user",FALSE,published,https://doi.org/10.1145/3358664.3358666
+"PRiSMHA project
+(Providing Rich Semantic
+Metadata for Historical Archives) ",TRUE,TRUE,FALSE,FALSE,,HERO Ontology,manual,"commenting, tagging",Custom,collaborative,"domain expert, casual user, special-purpose user, curation manager",TRUE,published without prototype,"https://doi.org/10.1145/3484398 (2022)
+https://doi.org/10.1145/3402440 (2020)
+https://iris.unito.it/handle/2318/1659249 (2017)"
+"Image Gandhara
+https://platform.readworkbench.org/ira/view/52863587-155d-424f-b571-863a687a5894?fullscreen=1 ",FALSE,TRUE,FALSE,FALSE,Web Annotation Data Model,,manual,"commenting, tagging",Custom,public,domain expert,FALSE,prototype,https://doi.org/10.30722/JGBT.2023.001
+"DIAGRAM project (Murten Panorama)
+https://www.epfl.ch/labs/emplus/projects/diagram/",FALSE,TRUE,FALSE,FALSE,Web Annotation Data Model,Custom Ontology ,manual,"commenting, associating",Mirador,public,domain expert,FALSE,published without prototype,https://ceur-ws.org/Vol-3809/paper1.pdf
+"Han Dynasty Wooden Slips from Edsen-Gol
+https://wcd-ihp.ascdc.sinica.edu.tw/woodslip/index.php ",FALSE,TRUE,FALSE,FALSE,Web Annotation Data Model,Wooden Slip Research Ontologies,manual,"commenting, transcribing/translating, tagging",Mirador,public,domain expert,TRUE,published,https://doi.org/10.6120/JoEMLS.202107_58(2).0007.RS.AM 
+"Iconolab
+https://iconolab.iri-research.org/home ",FALSE,TRUE,FALSE,FALSE,,,manual,"commenting, tagging",Custom,"public, collaborative",casual user,FALSE,prototype,
+"MetaScripta
+https://metascripta.org/ ",FALSE,TRUE,FALSE,FALSE,Web Annotation Data Model,,manual,commenting,Mirador,private,domain expert,FALSE,prototype,
+"Buddhist Murals of Kucha 
+on the Northern Silk Road
+https://kucha.saw-leipzig.de/ ",FALSE,TRUE,FALSE,FALSE,Custom Taxonomy ,,semi-automatic,tagging,Annotorious,public,domain expert,TRUE,published,"Radisch, Erik. “Buddhist Murals of Kucha on the Northern Silk Road. A Follow Up on Semi Automated Annotation Using RCNNs.” Zenodo (CERN European Organization for Nuclear Research), 2023. https://zenodo.org/records/7961822 "
+"The Beethoven in the House
+https://domestic-beethoven.eu/annotapp/",TRUE,TRUE,FALSE,FALSE,Web Annotation Data Model,Beethoven Annotation Model,manual,"commenting, associating",Custom,private,domain expert,FALSE,published,https://doi.org/10.1145/3543882.3543891
+"Van Gogh Letters
+https://github.com/CLARIAH/scholarly-web-annotation-client/blob/75ff292fd7b5d6c298f2ccdb90205e3eb7ac0a2d/docs/annotation_ontology.md
+https://clariah.github.io/scholarly-web-annotation/docs/development/ ",TRUE,TRUE,FALSE,FALSE,Web Annotation Data Model,Scholarly Web Annotation Ontology,manual,"commenting, tagging, transcribing/translating, associating",Custom,"public, collaborative, private","domain expert, curation manager",FALSE,published without prototype,https://doi.org/10.1515/9783110689112-009
+"What do we annotate when we annotate? 
+http://w3id.org/mlao ",FALSE,TRUE,FALSE,FALSE,Web Annotation Data Model,Multi-Level Annotation Ontology,manual,"transcribing/translating, tagging, commenting",Mirador,public,domain expert,TRUE,published without prototype,https://doi/10.3233/SSW240030 
+CulTO: an ontology-based annotation tool,FALSE,TRUE,FALSE,FALSE,,CulTO ontology,manual,tagging,Custom,private,domain expert,FALSE,published without prototype,https://doi.org/10.5194/isprs-archives-XLII-2-W5-267-2017
+"AdA project
+https://ada.cinepoetics.org/explorer/ ",FALSE,FALSE,TRUE,FALSE,Web Annotation Data Model ,AdA Filmontology,"manual, automatic","tagging, commenting",Custom,"public, collaborative",domain expert,TRUE,published,https://doi.org/10.5281/zenodo.8328663
+VicoGlossia,TRUE,FALSE,FALSE,FALSE,,Custom Ontology,manual,"commenting, associating",Custom,collaborative,domain expert,FALSE,published without prototype,https://doi.org/10.6092/issn.2532-8816/7253 
+"Burckhardt Source
+https://burckhardtsource.org/ ",TRUE,FALSE,FALSE,FALSE,Web Annotation Data Model ,Custom Vocabulary,manual,"tagging, associating",Pundit,collaborative,domain expert,TRUE,published,https://doi.org/10.1145/2517978.2517995 

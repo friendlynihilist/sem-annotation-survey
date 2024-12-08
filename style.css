@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+
+  /* text {
+    font-family: 'Lato', sans-serif;
+  } */
+  
+  #chart {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
