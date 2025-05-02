@@ -1,0 +1,41 @@
+/*  Carousel container  */
+.carousel{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;              /* space between panels */
+    overflow-x: auto;       /* horizontal scroll on small screens */
+    scroll-snap-type: x mandatory;   /* smooth snap (optional) */
+    padding: 1rem 0;        /* top/bottom breathing room */
+  }
+  
+  /*  Hide the default scrollbar in WebKit; keep it in others if you wish  */
+  .carousel::-webkit-scrollbar{
+    height: 10px;
+  }
+  .carousel::-webkit-scrollbar-thumb{
+    background: #bbb;
+    border-radius: 5px;
+  }
+  
+  /*  Each chart panel  */
+  .panel{
+    flex: 0 0 90vw;         /* each takes ~90% of viewport width */
+    max-width: 800px;       /* but never exceed design width */
+    scroll-snap-align: start;
+  }
+  
+  /* Smaller headings & centred buttons for tighter look */
+  .panel h2{ margin-bottom: .5rem; font-size: 1.25rem; }
+  .panel button{ margin-top: .4rem; }
+  
+  /* Optional: on desktop stack two per row instead of scrolling */
+  @media (min-width: 1100px){
+    .carousel{
+      flex-wrap: wrap;
+      justify-content: center;      /* nice grid in wide view */
+      overflow-x: visible;          /* disable scroll bar */
+    }
+    .panel{
+      flex: 0 1 calc(50% - 2rem);   /* 2‑column grid */
+    }
+  }
