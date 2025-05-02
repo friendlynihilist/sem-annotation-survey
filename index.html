@@ -1,52 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>DH Dashboard</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- moved CSS here -->
+  </head>
+  <body>
+    <section id="barChartSection">
+      <h2>Tool vs. Time</h2>
+      <div id="barChart"></div>
+      <button id="savebar">Download SVG</button>
+    </section>
+    <section id="pieChartSection">
+      <h2>Tool vs. Time</h2>
+      <div id="pieChart"></div>
+      <button id="savepie">Download SVG</button>
+    </section>
+    <section id="sankeyChartSection">
+      <h2>Tool vs. Time</h2>
+      <div id="sankeyChart"></div>
+      <button id="savesankey">Download SVG</button>
+    </section>
+    <section id="heatMapSection">
+      <h2>Tool vs. Time</h2>
+      <div id="heatmapChart"></div>
+      <button id="saveheatmap">Download SVG</button>
+    </section>
+    <section id="sankeyChart2Section">
+      <h2>Tool vs. Time</h2>
+      <div id="sankeyChart2"></div>
+      <button id="savesankey2">Download SVG</button>
+    </section>
+    <section id="timelineChartSection">
+      <!-- <h2>Tool vs. Time</h2>
+      <div id="timelineChart"></div>
+      <button id="savetimeline">Download SVG</button> -->
+      <h2>Tool vs. Time</h2>
+      <svg id="tool-time" width="1000" height="300"></svg>
+      <div id="tool-legend" class="legend"></div>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bar Chart with D3.js</title>
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/save-svg-as-png@1.4.17/lib/saveSvgAsPng.min.js"></script>
-    <script src="https://unpkg.com/d3-array@1"></script>
-    <script src="https://unpkg.com/d3-collection@1"></script>
-    <script src="https://unpkg.com/d3-path@1"></script>
-    <script src="https://unpkg.com/d3-shape@1"></script>
-    <script src="https://unpkg.com/d3-sankey@0"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-sankey/0.12.3/d3-sankey.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
-</head>
+      <h2>Metadata vs. Time</h2>
+      <svg id="metadata-time" width="1000" height="300"></svg>
+      <div id="metadata-legend" class="legend"></div>
 
-<body>
-    <div id="visualizations" style="display: flex; justify-content: space-around; align-items: center;">
-        <div style="display: flex; flex-direction: column; align-items: center; gap: 20px; font-family: Lato;">
-            <h1 style="text-align: center; font-family: Lato;">
-              Enriching Cultural Heritage through Semantic Annotation: A Review of Methods, Tools, and Collaborative Spaces - ADHO 2025
-            </h1>
-            
-            <div id="barChartContainer" style="text-align: center;">
-              <div id="barChart"></div>
-              <button id="saveBarChart" style="margin-top: 10px; font-family: Lato;">Download Bar Chart</button>
-            </div>
-          
-            <div id="pieChartContainer" style="text-align: center;">
-              <div id="pieChart"></div>
-              <button id="savePieChart" style="margin-top: 10px; font-family: Lato;">Download Pie Chart</button>
-            </div>
-          
-            <div id="sankeyChartContainer" style="text-align: center;">
-              <div id="sankeyChart"></div>
-              <button id="saveSankeyChart" style="margin-top: 10px; font-family: Lato;">Download Sankey Chart</button>
-            </div>
-          
-            <div id="heatmapChartContainer" style="text-align: center;">
-              <div id="heatmapChart"></div>
-              <button id="saveHeatmapChart" style="margin-top: 10px; font-family: Lato;">Download Heatmap</button>
-            </div>
-          </div>
-        <script src="script.js"></script>
-</body>
+      <h2>Ontology vs. Time</h2>
+      <svg id="ontology-time" width="1000" height="300"></svg>
+      <div id="ontology-legend" class="legend"></div>
+      <button id="savetimeline">Download SVG</button>
+    </section>
 
+    <!-- repeat for pie, sankey, heatmap ... -->
+
+    <script type="module" src="js/main.js"></script>
+  </body>
 </html>
