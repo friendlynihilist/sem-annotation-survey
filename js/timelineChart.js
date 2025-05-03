@@ -42,7 +42,11 @@ export function drawTimelines(data){
       const m=map.get(key); m.set(year,(m.get(year)||0)+1);
     });
 
-    const keys=[...map.keys()];
+    /* exclude keys whose total across all years is zero (e.g. metadata / ontology not used) */
+    const keys=[...map.keys()].filter(k=>{
+      const m=map.get(k);
+      return Array.from(m.values()).some(v=>v>0);
+    });
     /* colour map cycling through palette */
     const colMap=new Map(keys.map((k,i)=>[k,palette[i%palette.length]]));
 
